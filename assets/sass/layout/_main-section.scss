@@ -11,6 +11,7 @@
 .perfil__datos{
     width: 100%;
     display: flex;
+    margin: 30px 0px;
     justify-content: center;
     align-items: center;
     
@@ -31,25 +32,15 @@
     }
 }
 
-.boton--red{
-    background-color: $red;
-
-}
-
-.boton--light{
-    background-color: $light;
-    
-}
-
 .perfil__buttons{
     display: none;
 }
-    .boton{
-        padding: 10px 20px;
-        border: none;
-        color: $white;
-}
+    
 
+.titulo{
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 //Video
 .video--first{
@@ -117,5 +108,26 @@
     visibility: visible;
 }
 
+@media (min-width: 720px) {
+    
+    .main-section__perfil{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb($grey, 0.2);
+        
+     }
+     .perfil__datos{
+         width: 50%;
+         justify-content: start;
+    }
+     
+     .perfil__buttons{
+         display: block;
+     }
+         
+     .titulo{
+         text-align: left;
+     }
 
+  }
 

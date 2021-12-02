@@ -1,0 +1,41 @@
+.navbar{
+    float: right;
+    display: flex;
+}
+
+.header__logo img{
+    width: 200px;
+}
+
+.burger{
+    font-size: 50px;
+    color: $grey;
+ }
+
+ .navbar__icon{
+    font-size: 50px;
+    color:$grey;
+    display: none;
+ }
+
+ @media (min-width: 720px) {
+    .navbar{
+        display: flex;
+        width: 40%;
+
+
+    }
+
+    .burger{
+        font-size: 35px;
+        color: $grey;
+        display: block;
+     }
+    
+     .navbar__icon{
+        font-size: 35px;
+        color:$grey;
+        display: block;
+     }
+
+ }

@@ -1,39 +1,39 @@
 //font
 @mixin xxx-large{
-    font-size: 60px;
+    font-size: 3.75em;
     color: $black;
     font-weight: bold;
     
 }
 @mixin xx-large{
-    font-size: 25px;
+    font-size: 1.5625em;
     font-weight: bold;
     color: $black;
     
 }
 @mixin x-large{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     color: $black;
     
 }
 @mixin large{
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 400;
     color: $grey;
 }
 @mixin medium{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     color: $grey;
 }
 @mixin small{
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 400;
     color: $grey;
 }
 @mixin x-small{
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 400;
     color: $grey;
 }

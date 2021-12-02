@@ -1,0 +1,26 @@
+
+.boton{
+    padding: 10px 20px;
+    border: none;
+    color: $white;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.boton--red{
+    background-color: $red;
+    &:hover{
+        background-color: #F99795;
+    }
+
+}
+
+.boton--light{
+    background-color: $light;
+    &:hover{
+        background-color: #B6F7FF;
+    }
+    
+}
+
