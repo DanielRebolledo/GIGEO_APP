@@ -6,7 +6,7 @@ body {
   text-decoration: none;
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 img {
@@ -88,13 +88,13 @@ a {
   }
 
   .burger {
-    font-size: 35px;
+    font-size: 25px;
     color: #5d5d5d;
     display: block;
   }
 
   .navbar__icon {
-    font-size: 35px;
+    font-size: 25px;
     color: #5d5d5d;
     display: block;
   }
